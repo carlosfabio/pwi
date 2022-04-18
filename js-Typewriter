@@ -1,0 +1,27 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Typewriter write/rewrite Animation</title>
+</head>
+<body>
+<div id="awesomeAnimation"></div>
+<script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+ 
+<script>
+const textField = document.getElementById('awesomeAnimation');
+
+const typewriter = new Typewriter(textField, {
+    loop: true,
+    delay: 200,
+});
+
+typewriter
+    .typeString(`<span>Hello Medium</span>`)
+    .start()
+    </script>
+    
+</body>
+</html>
+
+https://javascript.plainenglish.io/javascript-amazing-typewriter-write-rewrite-animation-8e36d36cc793
+
